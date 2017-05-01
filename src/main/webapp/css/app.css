@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#action-bar {
+    width: 100%;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+#action-bar button {
+    font-size: 20px;
+}
+
+.login {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    margin-top: -50px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.login [name='name'] {
+    padding: 10px;
+    font-size: 20px;
+}
+
+#files {
+    padding: 10px;
+}
+
+#files .file {
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #ddd;
+}
+
+#files .file a {
+    text-decoration: none;
+    color: #777;
+}
+
+#files .author {
+    font-size: 11px;
+    color: #aaa;
+}
+
+#header {
+    height: 40px;
+    width: 100%;
+    margin-bottom: 3px;
+    box-shadow: 3px 3px 3px #ddd;
+    padding-top: 15px;
+}
+
+#header .back {
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+}
+
+#header .title {
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+#header .status {
+    font-size: 13px;
+    color: #999;
+    margin-left: 20px;
+}
+
+#header .user {
+    float: right;
+    padding-right: 20px;
+}
+
+#header .user .name {
+    font-size: 13px;
+    color: #777;
+    margin-right: 5px;
+}
+
+#header .avatar {
+}
+
+#editor-container {
+}
