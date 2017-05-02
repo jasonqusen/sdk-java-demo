@@ -50,7 +50,7 @@ public class Sign {
 		.concat(":")
 		.concat(secret);
 		
-		signature = digestHex(signature);
+		signature = digestHex(signature).toLowerCase();
 		
 		return new SignResult(nonce, timestamp, signature);
 	}
