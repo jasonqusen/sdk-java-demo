@@ -21,7 +21,7 @@ public class LoginServlet extends BaseServlet {
         String name = req.getParameter("name");
         id += 1;
 
-        if (name == null) {
+        if (name == null || name.trim().isEmpty()) {
             name = "游客" + id;
         }
 
